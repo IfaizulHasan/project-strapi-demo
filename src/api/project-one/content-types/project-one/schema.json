@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_ones",
+  "info": {
+    "singularName": "project-one",
+    "pluralName": "project-ones",
+    "displayName": "Project One"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Cancelled",
+        "Updated",
+        "Success"
+      ],
+      "required": false
+    },
+    "Checker": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
